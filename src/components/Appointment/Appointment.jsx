@@ -50,7 +50,7 @@ function Appointment({ appointment, appointmentIndex, appointmentList, setAppoin
         placeholder="description"
         onChange={(e) => handleUpdatingAppointment({ ...appointment, description: e.target.value })}
       />
-      <button onClick={handleDelete}>Delete</button>
+      <button className="delete-button" onClick={handleDelete}>Delete</button>
     </div>
   );
 }

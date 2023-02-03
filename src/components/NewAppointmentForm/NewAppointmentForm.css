@@ -14,3 +14,17 @@
   box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.2);
   padding-bottom: 5px;
 }
+
+.add-button {
+  height: 29px;
+  padding: 0 15px;
+  cursor: pointer;
+  background-color: rgba(0,200,0,0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.add-button:hover {
+  background-color: rgba(0,200,0,0.3);
+}

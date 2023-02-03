@@ -17,3 +17,17 @@
   height: 29px;
   line-height: 29px;
 }
+
+.delete-button {
+  height: 29px;
+  padding: 0 15px;
+  cursor: pointer;
+  background-color: rgba(200,0,0,0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.delete-button:hover {
+  background-color: rgba(200,0,0,0.3);
+}

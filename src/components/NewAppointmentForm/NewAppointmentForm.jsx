@@ -54,7 +54,7 @@ function NewAppointmentForm({ appointmentList, setAppointmentList}) {
         placeholder="description"
         onChange={(e) => setNewAppointment({ ...newAppointment, description: e.target.value })}
       />
-      <button onClick={handleAddingAppointment}>Add</button>
+      <button className="add-button" onClick={handleAddingAppointment}>Add</button>
     </div>
   );
 }
