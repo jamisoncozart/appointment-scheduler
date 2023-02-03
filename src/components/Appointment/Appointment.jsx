@@ -34,12 +34,12 @@ function Appointment({ appointment, appointmentIndex, appointmentList, setAppoin
       />
       {/* Location */}
       <select
-        className="input"
+        className="select"
         value={appointment.location}
         onChange={(e) => handleUpdatingAppointment({ ...appointment, location: e.target.value })}
       >
         {locationOptions.map((location) => (
-          <option value={location}>{location}</option>
+          <option key={location} value={location}>{location}</option>
         ))}
       </select>
       {/* Description */}

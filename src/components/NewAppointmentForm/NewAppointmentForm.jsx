@@ -38,12 +38,12 @@ function NewAppointmentForm({ appointmentList, setAppointmentList}) {
       />
       {/* Location */}
       <select
-        className="input"
+        className="select"
         value={newAppointment.location}
         onChange={(e) => setNewAppointment({ ...newAppointment, location: e.target.value })}
       >
         {locationOptions.map((location) => (
-          <option value={location}>{location}</option>
+          <option key={location} value={location}>{location}</option>
         ))}
       </select>
       {/* Description */}

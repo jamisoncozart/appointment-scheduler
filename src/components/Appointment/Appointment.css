@@ -9,4 +9,11 @@
 
 .input {
   margin: 10px;
+  height: 24px;
+}
+
+.select {
+  margin: 10px;
+  height: 29px;
+  line-height: 29px;
 }
