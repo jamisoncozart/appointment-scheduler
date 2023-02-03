@@ -1,4 +1,13 @@
 .appointments-wrapper {
+  height: 100vh;
+  width: 100%;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: #efefef;
+}
+
+.title {
+  font-size: 20px;
 }
